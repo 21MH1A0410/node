@@ -12,7 +12,7 @@ Endpoints:
     - Description: Create a new item.
     - Request Body:
       {
-         "name": "string",
+         "title": "string",
          "description": "string"
       }
     - Response:
@@ -29,7 +29,7 @@ Endpoints:
     - Description: Update an existing item by ID.
     - Request Body:
       {
-         "name": "string",
+         "title": "string",
          "description": "string"
       }
     - Response:
